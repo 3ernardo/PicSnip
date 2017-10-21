@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ImageComponent } from './image/image.component';
+import { FormCadastroComponent } from './form-cadastro/form-cadastro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     GalleryComponent,
-    ImageComponent
+    ImageComponent,
+    FormCadastroComponent
   ],
   imports: [
     BrowserModule,
