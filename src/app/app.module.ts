@@ -5,12 +5,14 @@ import { AlertModule } from 'ngx-bootstrap/ng2-bootstrap';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ImageComponent } from './image/image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    GalleryComponent
+    GalleryComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,
